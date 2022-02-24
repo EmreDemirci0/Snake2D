@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8465835779717109842}
   m_Layer: 0
   m_Name: Poison
-  m_TagString: Untagged
+  m_TagString: poison
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6241918902066078581, guid: 486a3b1871b64ad4583e46080f2e2202, type: 3}
-  m_Color: {r: 0, g: 0.11007786, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 26763a154684e7840baa8e2f252beb91, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -119,8 +119,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
+  m_Offset: {x: 0.0558424, y: 0.036883414}
+  m_Size: {x: 0.6463299, y: 0.897622}
   m_Direction: 0
 --- !u!114 &8465835779717109842
 MonoBehaviour:
@@ -134,3 +134,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80864c81314898d478924c3646de7003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameOverText: {fileID: 0}

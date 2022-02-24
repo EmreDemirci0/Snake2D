@@ -11,6 +11,12 @@ TagManager:
   - HP3
   - scoretext
   - gameovertext
+  - poison
+  - levelmanager
+  - startbutton
+  - exitbutton
+  - howtoplay
+  - howtoplaybutton
   layers:
   - Default
   - TransparentFX

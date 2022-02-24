@@ -8,21 +8,23 @@ using TMPro;
 public class SpeedController : MonoBehaviour
 {
    public static bool isThereSpeed = true;
- 
-
-
     
+    private void Start()
+    {
+        AppleController.pointsSource = GameObject.FindGameObjectWithTag("MainCamera").GetComponents<AudioSource>();
+       
+    }
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
         if (collision.tag == "Player" && isThereSpeed)
-        {   
-            Time.fixedDeltaTime = Time.fixedDeltaTime-0.005f;//küçülttükçe hýzlanur
-            if (Time.fixedDeltaTime<0.01f)
-            {
-              //Oyun Bitti
-            }
+        {
+            // Time.fixedDeltaTime = Time.fixedDeltaTime-0.005f;//küçülttükçe hýzlanur
+            AppleController.pointsSource[1].Play();
             Destroy(gameObject);
+            levelmanager.Health += 5;
             isThereSpeed = false;
         }
         if (collision.tag == "playertail")//Burasý BUG'lu
