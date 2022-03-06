@@ -1,2 +1,2 @@
 # Snake2D
-Yılan Oyunu Yaptık
+JSE için Yılan Oyunu Yaptım
