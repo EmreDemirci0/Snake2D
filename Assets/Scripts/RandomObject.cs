@@ -16,7 +16,7 @@ public class RandomObject : MonoBehaviour
     }
     void Update()
     {
-        float xPos = Random.Range(-12f, 12f);
+        float xPos = Random.Range(-10.2f, 10.2f);
         float yPos = Random.Range(-5.44f, 5.44f);
         if (SpeedController.isThereSpeed == false)
         {
