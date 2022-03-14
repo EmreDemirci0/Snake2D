@@ -54,7 +54,7 @@ public class GameLanguage : MonoBehaviour
 			{ "Eger elma yerseniz yilaniniz buyur ve cani artar.","If you eat apples, your snake will grow and its life will increase."},
 			{"Eger armut yerseniz yilaninizin cani artar.","If you eat pears, the snake's life will increase" },
 			{ "Eger zehiri yerseniz yilaninizin cani azalir ve kuculur. skor'dan da eksilir.","If you eat the poison, your snake will decrease in length and shrink. also decreases from the score"}
-			,{"Turkce","Turkish" },{"Ingilizce","English" },{ "Oyun Bitti...","Game Over..."},{"ses<br>efekti","Sound Efects" }
+			,{"Turkce","Turkish" },{"Ingilizce","English" },{ "Oyun Bitti...","Game Over..."},{"Ses<br>Efekti","Sound Efects" }
 		};
 		
 	}
